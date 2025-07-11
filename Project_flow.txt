@@ -1,3 +1,8 @@
 1.Create a git repo and clone it in local workspace
 2. Create a python file containing a code for saving the csv file in data folder and run it
-3.
+3.Initial commits before initializing dvc
+4.Initialize dvc using command(dvc init)
+5.Now create a local origin (here we can take aws s3 etc. similar to the git)
+6. command to add remote origin (dvc remote add -d <remote_name> <remote_url>)
+7.Now add folder data for tracking using command (dvc add data/)
+8.Add newly created files for staging and commit changes in git.
