@@ -9,6 +9,9 @@ data = {
 df = pd.DataFrame(data)
 new_rec = {'Name':'Milly','Age':21,'City':'California'}
 df.loc[len(df.index)] = new_rec
+
+new_rec_2 = {'Name':'Max','Age':25,'City':'New Jersey'}
+df.loc[len(df.index)] = new_rec_2
 # data_dir = "data"
 os.makedirs("data",exist_ok=True)
 file_path = os.path.join("data",'Sample_data.csv')
